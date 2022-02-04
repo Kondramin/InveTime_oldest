@@ -3,7 +3,55 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.32112.339
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InveTime.Database", "InveTime.Database\InveTime.Database.csproj", "{77F3633B-B8C1-485B-92F8-BBBB37483150}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InveTime.DataEntities", "InveTime.DataEntities\InveTime.DataEntities.csproj", "{77B102E3-CE57-40D5-90DC-0F16B0034309}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InveTime.Interfaces", "InveTime.Interfaces\InveTime.Interfaces.csproj", "{FDDADAAE-4281-4E95-850B-10342DA19857}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InveTime.Interfaces.Base", "InveTime.Interfaces.Base\InveTime.Interfaces.Base.csproj", "{BC8F12FB-6765-4FEF-81CD-BCBED9776818}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InveTime.WebApi.Clients", "InveTime.WebApi.Clients\InveTime.WebApi.Clients.csproj", "{38751661-183B-4F59-A340-23FA08A64E7D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InveTime.WebApi", "InveTime.WebApi\InveTime.WebApi.csproj", "{EC57B13C-D108-4E90-BEB7-57B8A255D061}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InveTime.WPF", "InveTime.WPF\InveTime.WPF.csproj", "{E784817E-6B1F-40A7-B1A7-8F703D69968B}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77F3633B-B8C1-485B-92F8-BBBB37483150}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77F3633B-B8C1-485B-92F8-BBBB37483150}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77F3633B-B8C1-485B-92F8-BBBB37483150}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77F3633B-B8C1-485B-92F8-BBBB37483150}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77B102E3-CE57-40D5-90DC-0F16B0034309}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77B102E3-CE57-40D5-90DC-0F16B0034309}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77B102E3-CE57-40D5-90DC-0F16B0034309}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77B102E3-CE57-40D5-90DC-0F16B0034309}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FDDADAAE-4281-4E95-850B-10342DA19857}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FDDADAAE-4281-4E95-850B-10342DA19857}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FDDADAAE-4281-4E95-850B-10342DA19857}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FDDADAAE-4281-4E95-850B-10342DA19857}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC8F12FB-6765-4FEF-81CD-BCBED9776818}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC8F12FB-6765-4FEF-81CD-BCBED9776818}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC8F12FB-6765-4FEF-81CD-BCBED9776818}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC8F12FB-6765-4FEF-81CD-BCBED9776818}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38751661-183B-4F59-A340-23FA08A64E7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38751661-183B-4F59-A340-23FA08A64E7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38751661-183B-4F59-A340-23FA08A64E7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38751661-183B-4F59-A340-23FA08A64E7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC57B13C-D108-4E90-BEB7-57B8A255D061}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC57B13C-D108-4E90-BEB7-57B8A255D061}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC57B13C-D108-4E90-BEB7-57B8A255D061}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC57B13C-D108-4E90-BEB7-57B8A255D061}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E784817E-6B1F-40A7-B1A7-8F703D69968B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E784817E-6B1F-40A7-B1A7-8F703D69968B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E784817E-6B1F-40A7-B1A7-8F703D69968B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E784817E-6B1F-40A7-B1A7-8F703D69968B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
