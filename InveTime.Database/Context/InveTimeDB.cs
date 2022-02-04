@@ -27,11 +27,22 @@ namespace InveTime.Database.Context
 
 
 
-        #region Initial Data
+       
+
+
+        #region Initial Data & properties to some entities
 
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.Entity<Category>()
+                .HasIndex(source => source.Name)
+                .IsUnique();
+            
+            modelBuilder.Entity<Product>()
+                .HasIndex(source => source.Name)
+                .IsUnique();
+
             modelBuilder.Entity<Category>().HasData(
                 new Category[]
                 {
@@ -60,6 +71,7 @@ namespace InveTime.Database.Context
                 new Category { Id=23, Name= "Кабели" },
                 new Category { Id=24, Name= "Прочее" }
                 });
+            
             modelBuilder.Entity<CategorySearchWord>().HasData(
                 new CategorySearchWord[]
                 {
@@ -106,6 +118,7 @@ namespace InveTime.Database.Context
                     new Position{Id=2, Name= "Менеджер магазина", AccessLevel = 5 },
                     new Position{Id=3, Name= "Продавец", AccessLevel = 1 }
                 });
+           
             modelBuilder.Entity<Market>().HasData(
                 new Market[]
                 {
@@ -114,9 +127,11 @@ namespace InveTime.Database.Context
                     new Market { Id = 3, Name = "Mi_Minsk_E-City" },
                     new Market { Id = 4, Name = "Mi_Minsk_Skala" }
                 });
+           
             modelBuilder.Entity<Employee>().HasData(
                 new Employee() { Id = 1, Name = "Admin", Email = "Admin@mail.com", PositionId = 1 }
                 );
+           
             modelBuilder.Entity<Password>().HasData(
                 new Password() { Id = 1, Name = "Admin" }
                 );
