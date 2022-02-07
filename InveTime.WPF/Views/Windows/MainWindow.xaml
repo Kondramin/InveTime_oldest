@@ -31,7 +31,7 @@
                 </MenuItem>
                 <Separator/>
                 <MenuItem Header="Сменить пользователя"/>
-                <MenuItem Header="Выход"/>
+                <MenuItem Header="Выход" Command="{StaticResource CloseAppCommand}"/>
             </MenuItem>
             <MenuItem Header="Инвентаризация">
                 <MenuItem Header="Начать инвентаризацию"/>
