@@ -20,7 +20,12 @@
                 <ResourceDictionary Source="Infrastructure/Templates/MainModelViews.xaml"/>
 
 
+                <ResourceDictionary Source="Infrastructure/Commands/AppCommands.xaml"/>
 
+
+                <ResourceDictionary Source="Infrastructure/Commands/AppConverters.xaml"/>
+                
+                
             </ResourceDictionary.MergedDictionaries>
 
             
