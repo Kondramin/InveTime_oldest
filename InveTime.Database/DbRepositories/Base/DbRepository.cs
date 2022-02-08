@@ -8,7 +8,7 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace InveTime.Services.Services.DbRepositories.Base
+namespace InveTime.Database.DbRepositories.Base
 {
     public class DbRepository<T> : IRepository<T> where T : Entity, new()
     {
