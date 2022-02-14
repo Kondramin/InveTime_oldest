@@ -1,13 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using InveTime.Domain.Domains.Base;
 
 namespace InveTime.Domain.Domains
 {
-    public class CategoryModel
+    public class CategoryModel : NamedEntityModel
     {
-        //TODO: Realize Dto
     }
 }

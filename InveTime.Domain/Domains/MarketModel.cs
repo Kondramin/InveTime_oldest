@@ -1,13 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using InveTime.Domain.Domains.Base;
+using System.Collections.ObjectModel;
 
 namespace InveTime.Domain.Domains
 {
-    public class MarketModel
+    public class MarketModel : NamedEntityModel
     {
-        //TODO: Realize Dto
+        public string Location { get; set; }
+
+
+
+        public ObservableCollection<EmployeeModel> Staff { get; set; }
+
     }
 }

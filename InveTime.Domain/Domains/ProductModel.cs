@@ -1,13 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using InveTime.Domain.Domains.Base;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace InveTime.Domain.Domains
 {
-    public class ProductModel
+    public class ProductModel : NamedEntityModel
     {
-        //TODO: Realize Dto
+        public string Barcode { get; set; }
+        public string VendorCode { get; set; }
+        [Column(TypeName = "decimal(18,2)")]
+        public decimal? Price { get; set; }
+
+
+
+        public int? CategoryId { get; set; }
+        public string CategoryName { get; set; }
     }
 }

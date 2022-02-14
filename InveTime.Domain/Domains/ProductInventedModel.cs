@@ -1,13 +1,24 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using InveTime.Domain.Domains.Base;
 
 namespace InveTime.Domain.Domains
 {
-    public class ProductInventedModel
+    public class ProductInventedModel : EntityModel
     {
-        //TODO: Realize Dto
+        public int AmountData { get; set; }
+        public int AmountFact { get; set; }
+
+
+
+        public bool Re_Grading { get; set; }
+
+
+
+        public int? ProductInfoId { get; set; }
+        public ProductModel ProductInfo { get; set; }
+
+
+
+        public int? InventoryId { get; set; }
+        
     }
 }

@@ -1,13 +1,25 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using InveTime.Domain.Domains.Base;
+using System;
+using System.Collections.ObjectModel;
 
 namespace InveTime.Domain.Domains
 {
-    public class InventoryModel
+    public class InventoryModel : EntityModel
     {
-        //TODO: Realize Dto
+        public DateTime EventDate { get; set; }
+        public bool OpenToModifi { get; set; } = true;
+
+
+
+        public ObservableCollection<EmployeeModel> EventStaff { get; set; }
+
+
+
+        public int? MarketId { get; set; }
+        public string MarketName { get; set; }
+
+
+
+        public ObservableCollection<ProductInventedModel> ProductInventeds { get; set; }
     }
 }

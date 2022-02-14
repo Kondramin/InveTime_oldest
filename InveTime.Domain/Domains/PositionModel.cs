@@ -1,13 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using InveTime.Domain.Domains.Base;
 
 namespace InveTime.Domain.Domains
 {
-    public class PositionModel
+    public class PositionModel : NamedEntityModel
     {
-        //TODO: Realize Dto
+        public int AccessLevel { get; set; }
     }
 }
