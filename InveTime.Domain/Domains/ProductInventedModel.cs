@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace InveTime.Domain.Domains
 {
-    public class ProductInventedDto
+    public class ProductInventedModel
     {
         //TODO: Realize Dto
     }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace InveTime.Domain.Domains
 {
-    public class PositionDto
+    public class CategoryModel
     {
         //TODO: Realize Dto
     }
