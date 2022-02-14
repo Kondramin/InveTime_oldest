@@ -2,7 +2,7 @@
 
 namespace InveTime.Domain.Domains.Base
 {
-    public abstract class EntityDto : IEntity
+    public abstract class EntityModel : IEntity
     {
         public int Id { get; set; }
     }
