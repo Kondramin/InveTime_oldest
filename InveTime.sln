@@ -11,15 +11,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InveTime.Interfaces", "Inve
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InveTime.Interfaces.Base", "InveTime.Interfaces.Base\InveTime.Interfaces.Base.csproj", "{BC8F12FB-6765-4FEF-81CD-BCBED9776818}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InveTime.WebApi.Clients", "InveTime.WebApi.Clients\InveTime.WebApi.Clients.csproj", "{38751661-183B-4F59-A340-23FA08A64E7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InveTime.WebApi.HTTPClients", "InveTime.WebApi.Clients\InveTime.WebApi.HTTPClients.csproj", "{38751661-183B-4F59-A340-23FA08A64E7D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InveTime.WebApi", "InveTime.WebApi\InveTime.WebApi.csproj", "{EC57B13C-D108-4E90-BEB7-57B8A255D061}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InveTime.WPF", "InveTime.WPF\InveTime.WPF.csproj", "{E784817E-6B1F-40A7-B1A7-8F703D69968B}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InveTime.Services", "InveTime.Services\InveTime.Services.csproj", "{020D6F57-1B3D-4E47-9EEE-26A258D094C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InveTime.Domain", "InveTime.Domain\InveTime.Domain.csproj", "{1D2DA5C3-1F37-4CEA-B6B4-70622B4295E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InveTime.WPF", "InveTime.WPF\InveTime.WPF.csproj", "{6761FD09-7D58-4BD7-BE9D-4606E359C71A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InveTime.Domain", "InveTime.Domain\InveTime.Domain.csproj", "{1D2DA5C3-1F37-4CEA-B6B4-70622B4295E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,14 +51,14 @@ Global
 		{EC57B13C-D108-4E90-BEB7-57B8A255D061}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC57B13C-D108-4E90-BEB7-57B8A255D061}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC57B13C-D108-4E90-BEB7-57B8A255D061}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E784817E-6B1F-40A7-B1A7-8F703D69968B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E784817E-6B1F-40A7-B1A7-8F703D69968B}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E784817E-6B1F-40A7-B1A7-8F703D69968B}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E784817E-6B1F-40A7-B1A7-8F703D69968B}.Release|Any CPU.Build.0 = Release|Any CPU
 		{020D6F57-1B3D-4E47-9EEE-26A258D094C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{020D6F57-1B3D-4E47-9EEE-26A258D094C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{020D6F57-1B3D-4E47-9EEE-26A258D094C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{020D6F57-1B3D-4E47-9EEE-26A258D094C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6761FD09-7D58-4BD7-BE9D-4606E359C71A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6761FD09-7D58-4BD7-BE9D-4606E359C71A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6761FD09-7D58-4BD7-BE9D-4606E359C71A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6761FD09-7D58-4BD7-BE9D-4606E359C71A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1D2DA5C3-1F37-4CEA-B6B4-70622B4295E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1D2DA5C3-1F37-4CEA-B6B4-70622B4295E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D2DA5C3-1F37-4CEA-B6B4-70622B4295E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
