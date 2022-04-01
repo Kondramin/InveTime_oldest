@@ -1,9 +1,9 @@
-﻿using InveTime.DataEntities.Entities;
+﻿using InveTime.Database.DbRepositories.Base;
+using InveTime.DataEntities.Entities;
 using InveTime.Interfaces.Base.Repository;
-using InveTime.Services.Services.DbRepositories.Base;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace InveTime.Services.Services.DbRepositories
+namespace InveTime.Database.DbRepositories
 {
     public static class RepositoryRegistrator
     {

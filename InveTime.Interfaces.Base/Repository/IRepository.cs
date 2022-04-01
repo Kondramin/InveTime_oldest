@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace InveTime.Interfaces.Base.Repository
 {
-    public interface IRepository<T> where T : class, IEntity, new()
+    public interface IRepository<T> where T : IEntity, new()
     {
         /// <summary>
         /// This property using to safe data in database. When you need add/update/remove many entities at a time, 

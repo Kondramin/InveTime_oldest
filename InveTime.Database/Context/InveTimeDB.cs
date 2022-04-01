@@ -24,10 +24,7 @@ namespace InveTime.Database.Context
 
 
         #endregion
-
-
-
-       
+             
 
 
         #region Initial Data & properties to some entities

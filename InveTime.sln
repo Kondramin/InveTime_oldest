@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InveTime.WebApi", "InveTime
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InveTime.Services", "InveTime.Services\InveTime.Services.csproj", "{020D6F57-1B3D-4E47-9EEE-26A258D094C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InveTime.WPF", "InveTime.WPF\InveTime.WPF.csproj", "{6761FD09-7D58-4BD7-BE9D-4606E359C71A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InveTime.WPF", "InveTime.WPF\InveTime.WPF.csproj", "{6761FD09-7D58-4BD7-BE9D-4606E359C71A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InveTime.Domain", "InveTime.Domain\InveTime.Domain.csproj", "{1D2DA5C3-1F37-4CEA-B6B4-70622B4295E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{6761FD09-7D58-4BD7-BE9D-4606E359C71A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6761FD09-7D58-4BD7-BE9D-4606E359C71A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6761FD09-7D58-4BD7-BE9D-4606E359C71A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D2DA5C3-1F37-4CEA-B6B4-70622B4295E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D2DA5C3-1F37-4CEA-B6B4-70622B4295E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D2DA5C3-1F37-4CEA-B6B4-70622B4295E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D2DA5C3-1F37-4CEA-B6B4-70622B4295E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

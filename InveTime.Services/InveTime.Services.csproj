@@ -8,8 +8,4 @@
     <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.2" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\InveTime.Database\InveTime.Database.csproj" />
-  </ItemGroup>
-
 </Project>
